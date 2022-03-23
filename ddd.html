@@ -1,0 +1,27 @@
+<html>
+<body>
+  <script>
+    function kay(){
+      var t;
+      var p=prompt("please enter value");
+      if(p==0||p==null){
+        t="prompt cancelled"
+      }
+      else{
+        var i;
+        for(i=1;i<p;i++)
+        {
+          t=(2*i)-1;
+          document.write(t+"<br />");
+        }
+
+      }
+      document.write(t);
+    }
+
+  </script>
+  <form>
+    <input type="submit" name="" value="submit" onclick="kay()">
+  </form>
+</body>
+</html>
